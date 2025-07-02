@@ -1,6 +1,8 @@
 # tutorials
 Tutorials explaining how to interact with Github, R, MCRLdata, and much more. 
 
+🏖️ Note: If this is <ins>your first time here</ins>, or you have questions about the whys, whats, and hows, please start with the **[sandbox_intro](https://github.com/MCRLdata-Sandbox/.github/blob/main/sandbox_intro.md)**
+
 Prior to working with these codes, you'll need to do 4 things:
 
   1. Install R - see https://rstudio-education.github.io/hopr/starting.html
