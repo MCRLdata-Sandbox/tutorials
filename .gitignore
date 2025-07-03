@@ -49,4 +49,5 @@ po/*~
 rsconnect/
 
 *.DS_Store
-Download_and_open_an_R_script.docx
+
+ignore/*
