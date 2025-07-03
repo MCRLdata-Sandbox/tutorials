@@ -1,7 +1,7 @@
 ## Everyone has their own way of coding, and their favorite ways to do things. 
 ## One of the great things about R is that you can code however you want, as long
 ## as it works! There are of course "best practices" but, in my opinion, whatever works for
-## you is what is what you should do. This script is designed to introduce you to the 
+## you is what you should do. This script is designed to introduce you to the 
 ## anatomy of R code, and how I like to set my scripts up.
 
 ## First, this is a comment. Comments are anything that follows a '#' character, 
@@ -28,19 +28,24 @@ p_load(ggplot2, dplyr)
 ## like, and there are all sorts of cool tips and tricks out there, if you ever
 ## get stuck, you can always ask me, but Google will be your best friend as you
 ## learn to code and troubleshoot, places like stackexchange have answers to 
-## virtually any R code question you can think up.
+## virtually any R code question you can think up. Additionally, AI chat can be
+## A really good resource, although depending on the model you're using, they
+## can also hallucinate and make up packages, or provide code that won't run.
+## Chat excels at troubleshooting - if you get an error, providing the code that
+## caused the error, the error, and what you want to Chat usually gets you 
+## started towards a solution
+
 
 # ------------------------------------------------------------------------------
 
 
 ## This script is an introduction to some basic R code that will be useful for 
-## understanding the data you'll be collecting, and for completing the 
-## research you'll present in your SULI deliverables.
+## understanding how to look at, edit, and visualize data.
 ## I start my codes off with a header (composed of comments) that explains what
-## what this code is supposed to do. 
+## what this code is supposed to do (like this!)
 ##
 ## Peter Regier 
-## 2022-05-31
+## 2022-05-31 (updated 2025-07-03)
 ##
 # ########## #
 # ########## #
@@ -54,6 +59,7 @@ require(pacman)
 p_load(tidyverse,  # Contains many different tidy packages, including ggplot2 
        lubridate, # Useful for manipulating date data
        hms) # Useful for manipulating time data
+
 
 # 2. Read in some data ---------------------------------------------------------
 
@@ -107,7 +113,7 @@ str(df)
 df$day
 
 ## You can also reference using its index, which accepts row and column position
-## in the format if [row, column]. For instance, if we want the first row of the 
+## in the format of [row, column]. For instance, if we want the first row of the 
 ## the first column (day), we would use
 df[1, 1]
 
@@ -117,7 +123,7 @@ df[2, 3]
 
 # 3. Let's clean up our dataset ------------------------------------------------
 
-## There are some columns here we need and some we do. To select which columns 
+## There are some columns here we need and some we don't. To select which columns 
 ## you want to keep, you can use select
 
 ## First, to figure out how select works and what arguments it takes, run this:
