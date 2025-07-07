@@ -8,7 +8,7 @@ Prior to working with these codes, you'll need to do 2 things (minimum):
   1. Install R - see https://rstudio-education.github.io/hopr/starting.html
   2. Install RStudio - see https://rstudio-education.github.io/hopr/starting.html
 
-Once those steps are complete, the easiest way to run a script (e.g., .R files located in scripts folder on this repo) is to download it to your local then open it in RStudio:  https://github.com/MCRLdata-Sandbox/tutorials/blob/main/Download_and_open_an_R_script.pdf. I suggest following this protocol with the [0_R_basics script](https://github.com/MCRLdata-Sandbox/tutorials/blob/main/scripts/0_R_basics.R)
+Once those steps are complete, the easiest way to run a script (e.g., .R files located in scripts folder on this repo) is to download it to your local then open it in RStudio following [this protocol](https://github.com/MCRLdata-Sandbox/tutorials/blob/main/Download_and_open_an_R_script.pdf). I suggest following this protocol with the [0_R_basics script](https://github.com/MCRLdata-Sandbox/tutorials/blob/main/scripts/0_R_basics.R)
 
   3. Create a Github account - https://github.com/join
   4. Install Github Desktop - (unless you're a pro and prefer to interact via command-line interface. I'm not, and use Github Desktop) - https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop
