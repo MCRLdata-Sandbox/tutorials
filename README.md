@@ -1,5 +1,5 @@
 # tutorials
-Tutorials explaining how to interact with Github, R, MCRLdata, and much more. 
+Tutorials provides step-by-step instructions (primarily R scripts, but also as documents) explaining how to get set up with Github and R, and how to interact with data in the Sandbox. 
 
 🏖️ Note: If this is <ins>your first time here</ins>, or you have questions about the whys, whats, and hows, please start with the **[sandbox_intro](https://github.com/MCRLdata-Sandbox/.github/blob/main/sandbox_intro.md)**
 
