@@ -128,8 +128,10 @@ ggplot() +
   geom_smooth(data = df, aes(x = petal_length, y = sepal_length),
                   method = "lm", color = "blue", se = F) + 
   geom_smooth(data = pdp0, aes(x = petal_length, y = sepal_length_rf),
-              color = "red", se = F) 
-
+              color = "red", se = F) + 
+  annotate(geom = "text", x = 3, y = 7.5, label = "Linear", color = "blue") + 
+  annotate(geom = "text", x = 3, y = 7, label = "Random Forest", color = "red")
+ 
 
 # 2. Multivariate RF models ----------------------------------------------------
 
