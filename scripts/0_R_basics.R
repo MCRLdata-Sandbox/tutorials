@@ -269,7 +269,7 @@ ggplot(data = df1, aes(x = date_time, y = temp)) +
   scale_color_manual(values = c("lightblue", "red")) + 
   labs(x = "Datetime", y = "Temperature (C)", 
        color = "Activity",
-       title = "Beaver temperature thorugh time") + 
+       title = "Beaver temperature through time") + 
   theme_bw()
 
 
